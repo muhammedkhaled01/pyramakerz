@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Start framework */
+:root {
+    --main-color: #fa971d;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.zoom {
+    transition: all .3s ease-in-out;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+.hidden {
+    display: none;
+}
+
+.bg-main-color {
+    background-color: var(--main-color);
+    color: #FFFFFF;
+}
+
+.bg-main-color:hover {
+    background-color: var(--main-color);
+    color: #FFFFFF;
+
+}
+
+.text-main-color {
+    color: var(--main-color);
+}
+
+/* End framework */
+#myTable_wrapper {
+    margin-top: 40px;
+}
+
+/* Start navbar */
+.logo {
+    width: 30%;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.btn-login {
+    background-color: var(--main-color);
+    padding: 0 25px;
+    transition: all .3s ease-in-out;
+}
+
+.btn-login:hover {
+    background-color: #fff;
+}
+
+.btn-login:hover a {
+    color: #000 !important;
+}
+
+.btn-login a, .btn-primary a {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.btn-register {
+    background-color: #fff;
+    padding: 0 25px;
+    margin-left: 15px;
+}
+
+.btn-register a {
+    color: #000 !important;
+}
+
+.btn-register:hover a {
+    color: #fff !important;
+}
+
+/* End Navbar */
+/* Start home page */
+.card-header {
+    padding: 0;
+}
+
+.product-image {
+    width: 100%;
+    height: 230px;
+}
+
+.product-name {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.product-price {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.currency {
+    color: var(--main-color);
+    font-weight: 700;
+
+}
+
+/*End home page */
+/* Start product view  */
+
+.container-product-image {
+    width: 100%;
+    height: 450px;
+}
+
+.container-product-image img {
+    width: 100%;
+    height: 450px;
+    max-height: 450px;
+}
+
+#quantity {
+    width: 100px;
+    height: 36px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn-add-to-cart {
+    background-color: var(--main-color);
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    width: 40%;
+}
+
+/* End product view  */
+/* Start upload page */
+.title-page {
+    font-size: 29px;
+    font-weight: 700;
+    color: var(--main-color);
+    margin-bottom: 25px;
+}
+
+/* End upload page */
